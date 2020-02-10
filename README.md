@@ -1,4 +1,4 @@
-# weball
+# Weball
 
 A simple (offline/online) web based game.
 
