@@ -20,7 +20,7 @@ body {
   overflow:hidden;
 }
 
-#centerLine {
+.centerLine {
   position: relative;
   background:#999;
   height: 100%;
@@ -58,6 +58,7 @@ body {
 }
 
 .circle {
+  position: absolute;
   z-index: 99;
   display: block;
   background: black;
