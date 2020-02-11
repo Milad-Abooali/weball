@@ -13,31 +13,43 @@ body {
   height: 500px;
 }
 
+#homeRight,
+#homeLeft {
+  height: 100%;
+  width: 75px;
+  overflow:hidden;
+}
+
+#centerLine {
+  background:#999;
+  height: 100%;
+  width: 5px;
+}
 .goal {
   z-index: 9999;
   position: absolute;
   border: 5px solid #890;
   border-radius: 50px;
-  width: 75px;
-  height: 75px;
+  width: 76px;
+  height: 76px;
   top:35%;
 }
-#leftgoal{left:15px;border-right:none;}
-#rightgoal{right:15px;border-left:none;}
+#shoterLeft{left:15px;border-right:none;}
+#shoterRight{right:15px;border-left:none;}
 
-.ball {
+#ball {
   position: absolute;
-  border: none;
-  border-radius: 50px;
-  width: 60px;
-  height: 60px;
+  left:50%;
+  top: 0 ;
 }
-.ball-a,
-.ball-b {
-  top: 2px;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(166,168,206,1) 100%);
-}
-.ball-b {
-  right:0;
+
+.circle {
+  z-index: 99;
+  display: block;
+  background: black;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #777, #eee);
 }
