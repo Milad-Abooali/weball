@@ -21,6 +21,7 @@ body {
 }
 
 #centerLine {
+  position: relative;
   background:#999;
   height: 100%;
   width: 5px;
@@ -34,13 +35,26 @@ body {
   height: 76px;
   top:35%;
 }
-#shoterLeft{left:15px;border-right:none;}
-#shoterRight{right:15px;border-left:none;}
+#shooterLeft{left:15px;border-right:none;}
+#shooterRight{right:15px;border-left:none;}
 
-#ball {
+#shooterRight > .circle {
+  margin-left: -10px;
+  margin-top: 15PX;
+}
+#shooterLeft > .circle {
+  margin-left: 45px;
+  margin-top: 15PX;
+}
+#ball-1 {
   position: absolute;
-  left:50%;
+  right:-35px;
   top: 0 ;
+}
+#ball-2 {
+  position: absolute;
+  left:-35px;
+  bottom: 0 ;
 }
 
 .circle {
@@ -51,5 +65,6 @@ body {
   height: 35px;
   width: 35px;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #777, #eee);
 }
+.blue{  background: radial-gradient(circle at 19px 17px, #bbb, #363dc3, #000);}
+.red{  background: radial-gradient(circle at 19px 17px, #fff, #ff3600, #000);}
