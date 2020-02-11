@@ -54,7 +54,7 @@ body {
 #ball-2 {
   position: absolute;
   left:-35px;
-  bottom: 0 ;
+  top: 0 ;
 }
 
 .circle {
