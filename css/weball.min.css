@@ -18,6 +18,8 @@ body {
   height: 100%;
   width: 75px;
   overflow:hidden;
+  box-shadow: 0 20px 20px #3434385e;
+
 }
 
 .centerLine {
@@ -69,4 +71,4 @@ body {
 }
 .blue{  background: radial-gradient(circle at 19px 17px, #bbb, #363dc3, #000);}
 .red{  background: radial-gradient(circle at 19px 17px, #fff, #ff3600, #000);}
-.destroy{  background: radial-gradient(circle at 17px 19px, #ffb100, #65451a, #ffba00);}
+.des{  background: radial-gradient(circle at 17px 19px, #ffb100, #65451a, #ffba00);}
