@@ -1,6 +1,6 @@
 # Weball
 
-A simple (offline/online) web based game.
+A simple (offline) web based game.
 
 # Used technologies
 
